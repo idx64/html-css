@@ -1,0 +1,15 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  .square1, .square2 {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    float: left;
+    margin: 0 auto;
+  }
+  .square2{
+    background-color: orange;
+  }
