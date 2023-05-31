@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Exo+2', sans-serif;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    padding: 50px 55px 85px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+}
+.entrada {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+h2 {
+    color: #181818;
+    font-size: 35px;
+    margin: 0;
+}
+p {
+    font-size: 16px;
+    color: #353535;
+    margin-bottom:  20px; 
+}
+.linea {
+    display: inline-block;
+    width: 50px;
+    height: 7px;
+    background: linear-gradient( 90deg,
+                 rgba(214, 0, 254, 1)0%,
+                 rgba(136, 1, 254, 1)77%);
+}
+label {
+    color: #181818;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+input {
+    padding: 17px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ededed;
+    color: #181818;
+    outline: none;
+}
+input::placeholder {
+    color: #c0c0c0;
+}
+.priv {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.priv a {
+    color: #181818;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btn {
+    font-size: 16px;
+    width: 340px;
+    color: #fbf9fd;
+    border: 0;
+    border-radius: 25px;
+    background: linear-gradient( 90deg,
+                 rgba(214, 0, 254, 1)0%,
+                 rgba(136, 1, 254, 1)77%);
+                 box-shadow: 0 0 20px rgba(red, green, blue, alpha);
+}
