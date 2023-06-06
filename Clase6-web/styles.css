@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quantico', sans-serif;
+    background: #edeaea;
+}
+
+
+header{
+    width: 100%;
+    height: 120px;
+    background: rgb(224, 166, 41);
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+}
+header img{
+    max-width: 100%;
+    float: right;
+    height: 140px;
+    padding-right: 60px;
+}
+header nav{
+    height: 70px;
+    padding: 40px 30px;
+    float: left;
+}
+header li{
+    list-style-type: none;
+    float: left;
+}
+header a{
+    text-decoration: none;
+    color: rgb(84, 42, 42);
+    padding-right: 15px;
+}
+header a:hover{
+    color: rgb(49, 49, 147);
+    font-weight: bold;
+}
+
+
+aside{
+    min-width: 250px;
+    clear: both;
+    width: 20%;
+    padding: 20px;
+    float: left;
+}
+aside h3{
+    text-align: center;
+    color: rgb(84, 42, 42);
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+aside li{
+    list-style: none;
+    margin-bottom: 5px;
+    border-bottom: 2px solid  rgb(150, 0, 38);
+}
+aside ul{
+    margin-bottom: 40px;
+}
+aside a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(49, 49, 147);
+}
+aside li:hover{
+    border-bottom: 2.5px solid  rgb(150, 0, 38);
+}
+aside a:hover{
+    color: rgb(150, 0, 38);
+    font-weight: bold;
+    padding-left: 0.25rem;
+}
+aside form{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(224, 166, 41);
+    border-radius: 5px;
+}
+aside h1{
+    text-align: center;
+    color: rgb(84, 42, 42);
+    margin-bottom: 20px;
+}
+aside input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+aside textarea{
+    width: 100%;
+    margin-bottom: 20px;
+}
+::placeholder{
+    color: #747474;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 10px;
+}
+aside button{
+    width: 50%;
+    padding: 5px;
+}
+aside input:focus, textarea:focus{
+   color: rgb(49, 49, 147);
+}
+aside .btn{
+    text-align: right;
+}
+
+
+main{
+    width: 80%;
+    float: left;
+    margin-top: 60px;
+}
+main section .sector1 .sector2 .sector3{
+    width: 33.3%;
+}
+main section .card{
+    float: left;
+    width: 25%;
+    margin: 40px 62px;
+    border: 2px solid rgb(224, 166, 41);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px black;
+}
+main section  .card .img1{
+    background-image: url(images/Coso1.jpg);
+    height: 300px;
+    background-size: cover ;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+main section  .card .img2{
+    background-image: url(images/Coso2.jpg);
+    height: 300px;
+    background-size: cover ;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+main section  .card .img3{
+    background-image: url(images/Coso3.jpg);
+    height: 300px;
+    background-size: cover ;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+main section  .card .img4{
+    background-image: url(images/Coso4.jpg);
+    height: 300px;
+    background-size: cover ;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+main section  .card .img5{
+    background-image: url(images/Coso5.jpg);
+    height: 300px;
+    background-size: cover ;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+main section  .card .img6{
+    background-image: url(images/Coso6.jpg);
+    height: 300px;
+    background-size: cover ;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+main section  .card .img7{
+    background-image: url(images/Coso7.jpg);
+    height: 300px;
+    background-size: cover ;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+main section  .card .img8{
+    background-image: url(images/Coso8.jpg);
+    height: 300px;
+    background-size: cover ;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+main section  .card .img9{
+    background-image: url(images/Coso9.jpg);
+    height: 300px;
+    background-size: cover ;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+main h2{
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+main button{
+    width: 100%;
+    border-style: none;
+    height: 36px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+footer{
+    clear: both;
+    width: 100%;
+    margin: 0;
+    padding: 30px;
+    background: rgb(224, 166, 41);
+}
+footer div{
+    width: 100%;
+}
+footer div span{
+    float: right;
+}
+
+
+
+
+
+
