@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    font-family: 'Antic', serif;
+    height: 100%;
+    width: 100%;
+    background: rgb(226, 226, 227);
+    margin:0;
+}
+
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+i{
+    margin: 5px;
+    font-size: 20px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.flex-container{
+    display: flex;
+    width: 100%;
+    background: rgb(178, 232, 176);
+}
+.lateral{
+    width: 30%;
+    margin: 50px;
+}
+header img{
+    margin-bottom: 40px;
+}
+
+.ancla1{
+    padding: 10px;
+}
+.ancla1 li:hover{
+    margin-left: 1rem;
+    background: rgb(181, 221, 181);
+}
+aside .t2{
+    margin: 20px 0px;
+}
+aside .t3{
+    margin: 15px 0;
+    text-decoration:underline  ;
+}
+main section div img{
+    width: 100%;
+    object-fit: cover;
+}
+.ancla2{
+    font-family: Roboto, sans-serif;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(178, 232, 176);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.ancla2 a{
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 0 115px ; 
+    border: 1px solid rgb(90, 176, 47);
+}
+.ancla2 a:hover{
+    font-size: 20px;
+    padding: 4px 119px;
+    background: #cbffd0;
+    border: none;
+}
+.suscripcion{
+    display: flex;
+    background-color: rgb(98, 193, 98);
+    justify-content: center;
+    align-items: center;
+}
+.suscripcion .fa{
+    padding: 0 10px;
+    color: rgb(50, 50, 50);
+    font-size: 36px;
+    margin: 10px;
+}
+.suscripcion p{
+    padding-right: 10px;
+    color: rgb(48, 48, 48);
+}
+.suscripcion input{
+    font-size: 22px;
+    text-align: center;
+    color: #9d9d9d;
+    border: none;
+}
+.suscripcion button{
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    padding: 7px 20px;
+    margin: 0 7px;
+    font-family: 'Roboto+Flex',  sans-serif;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    background: rgb(98, 193, 98);
+    border-color: white;
+    border-style:solid ;
+    cursor: pointer;
+}
+.suscripcion button:hover{
+    transform: scale(1.1);
+    background: rgb(103, 217, 61); 
+    box-shadow: 0 0 35px rgb(103, 217, 61); 
+}
+.suscripcion button:active{
+    color: rgb(103, 217, 61);
+}
+
+.articulos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: yellow;
+    margin-top: 20px;
+}
+.articulos img{
+    width: 100%;
+    height: 200px;
+    margin-top: 0;
+    image-resolution: 400px;
+}
+.articulos img:hover{
+    transform: scale(1.1);
+}
+.articulos article{
+    width: 25%;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+footer{
+    display: flex;
+    background: rgb(98, 193, 98);
+    justify-content:space-between;
+    padding: 0 20px;
+    align-items: center;
+    color: rgb(54, 54, 54);
+    padding: 20px 40px;
+}
+footer .fa{
+    cursor: pointer;
+}
